@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+
+  rstudio:
+    restart: always
+    image: mikkelkrogsholm/rstudio
+    container_name: rstudio
+    ports:
+      - "8787"
