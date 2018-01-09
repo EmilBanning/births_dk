@@ -4,7 +4,7 @@ services:
 
   rstudio:
     restart: always
-    image: mikkelkrogsholm/rstudio
+    image: mikkelkrogsholm/rstudio:stable
     container_name: rstudio
     ports:
       - "8787"
