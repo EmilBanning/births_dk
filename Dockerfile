@@ -1,4 +1,4 @@
-FROM mikkelkrogsholm/rstudio
+FROM mikkelkrogsholm/rstudio:stable
 
 # Pick up some TF dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
